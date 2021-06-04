@@ -135,6 +135,10 @@ header .top-bar {
     text-decoration: underline;
 }
 
+.jumbo-btn .fas.fa-long-arrow-alt-down {
+    padding: 8px;
+}
+
 
 
 
