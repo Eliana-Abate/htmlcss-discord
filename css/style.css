@@ -22,6 +22,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .col.w-20 {
@@ -163,6 +164,7 @@ main .discord-features:nth-child(2n) {
     padding-bottom: 200px;
 }
 
+
 main h2 {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -173,6 +175,13 @@ main h2 {
 main p {
     font-size: 20px;
     line-height: 30px;
+}
+
+.item4-big {
+    height: 700px;
+    margin: 40px;
+    background-image: url(../img/item4-big.svg);
+    background-size: cover;
 }
 
 
