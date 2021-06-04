@@ -184,6 +184,20 @@ main p {
     background-size: cover;
 }
 
+.starred-text {
+    background-image: url(../img/stars.svg);
+    background-size: 50%;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+}
+
+.discord-features .starred-text h3 {
+    font-size: 25px;
+    font-weight: 800;
+    padding: 40px;
+}
+
 
 
 
