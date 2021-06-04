@@ -28,6 +28,12 @@ body {
     width: 60%;
 }
 
+.white-btn {
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
 
 /*HEADER*/ 
 header {
@@ -59,15 +65,22 @@ header .top-bar {
     margin: 0 15px;
 }
 
-.top-bar-menu li a {
+.top-bar a {
     color: white;
     font-size: 14px;
     text-decoration: none;
 }
 
-.top-bar-menu li a:hover {
+.top-bar a:hover {
     text-decoration: underline;
 }
+
+.top-bar .white-btn {
+    color: black;
+}
+
+
+
 
 
 
