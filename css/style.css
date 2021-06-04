@@ -109,6 +109,7 @@ header .top-bar {
 
 .jumbotron .container h1 {
     font-size: 50px;
+    font-weight: 800;
     margin-bottom: 40px;
 }
 
@@ -153,13 +154,18 @@ main {
 
 main .discord-features {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
+}
+
+main .discord-features:nth-child(2n) {
+    background-color: #f6f6f6;
 }
 
 main h2 {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 45px;
+    font-weight: 800;
 }
 
 main p {
