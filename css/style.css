@@ -28,10 +28,16 @@ body {
     width: 60%;
 }
 
+.white-btn, .dark-btn {
+    border-radius: 20px;
+}
+
 .white-btn {
     background-color: white;
-    border-radius: 20px;
-    padding: 10px 15px;
+}
+
+.dark-btn {
+    background-color: black;
 }
 
 
@@ -77,6 +83,7 @@ header .top-bar {
 
 .top-bar .white-btn {
     color: black;
+    padding: 10px 15px;
 }
 
 .jumbotron {
@@ -88,12 +95,49 @@ header .top-bar {
 }
 
 .jumbotron .container {
-    font-size: 25px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
 }
+
+.jumbotron .container h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.jumbotron .container p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.jumbo-btn {
+    margin-top: 30px;
+}
+
+.jumbo-btn .white-btn {
+    color: black;
+    margin-right: 15px;
+    padding: 13px 20px;
+}
+
+.jumbo-btn .dark-btn {
+    color: white;
+    margin-left: 15px;
+    padding: 13px 20px;
+}
+
+.jumbotron .jumbo-btn a {
+    text-decoration: none;
+}
+
+.jumbotron .jumbo-btn a:hover {
+    text-decoration: underline;
+}
+
+
+
+
 
 
 
