@@ -79,6 +79,22 @@ header .top-bar {
     color: black;
 }
 
+.jumbotron {
+    height: 500px;
+    background-image:url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.jumbotron .container {
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
 
 
 
