@@ -25,17 +25,25 @@ body {
     text-align: center;
 }
 
-.col.w-20 {
+.w-15 {
+    width: 15%;
+}
+
+.w-20 {
     width: 20%;
 }
 
-.col.w-40 {
+.w-40 {
+    width: 40%;
+}
+
+.w-special {
     width: calc(40% - 120px);
     margin-left: 40px;
     margin-right: 80px;
 }
 
-.col.w-60 {
+.w-60 {
     width: 60%;
 }
 
@@ -78,7 +86,7 @@ header .top-bar {
     line-height: 80px;
 }
 
-#logo {
+.logo {
     vertical-align: middle;
 }
 
@@ -169,6 +177,10 @@ main .discord-features:nth-child(2n) {
     padding-bottom: 200px;
 }
 
+main .discord-features:last-child {
+    margin-bottom: 0;
+}
+
 
 main h2 {
     margin-top: 30px;
@@ -210,6 +222,95 @@ main p {
 .discord-features a.indaco-btn:hover {
     text-decoration: underline;
 }
+
+
+/*** Footer ***/
+footer {
+    background-color: #23272a;
+    color: white;
+    padding: 100px 0;
+}
+
+.indaco-title {
+    color: #5865f2;
+    font-size: 15px;
+    margin-bottom: 14px;
+}
+.text-left {
+    text-align: left;
+}
+
+.col.w-40 {
+    font-size: 12px;
+}
+
+.col.w-40 .indaco-title {
+    font-size: 30px;
+    font-weight: 800;
+    padding-right: 200px;
+    margin-bottom: 25px;
+}
+
+
+footer .container div.col.w-15 {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+footer .container div.col.w-15 ul {
+    display: inline-block;
+}
+
+footer .container div.col.w-15 ul li {
+    list-style-type: none;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+#ita-flag {
+    width: 20px;
+    margin-right: 3px;
+    position: relative;
+    top: 3px;
+}
+
+.fas.fa-angle-down {
+    margin-left: 3px;
+}
+
+.fab.fa-twitter, .fab.fa-instagram, 
+.fab.fa-facebook, .fab.fa-youtube {
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+
+#hr-footer {
+    margin: 40px 0;
+    background-color: #5865f2;
+    border: 1px solid #23272a;
+}
+
+#btn-right {
+    height: 40px;
+    text-align: right;
+    line-height: 40px;   
+}
+
+#btn-right a.indaco-btn {
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#btn-right a.indaco-btn:hover {
+    text-decoration: underline;
+}
+
+
+
+
 
 
 
