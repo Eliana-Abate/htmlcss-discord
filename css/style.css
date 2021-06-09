@@ -39,8 +39,13 @@ body {
     width: 60%;
 }
 
-.white-btn, .dark-btn {
+.white-btn, .dark-btn, .indaco-btn {
     border-radius: 20px;
+}
+
+.dark-btn, .indaco-btn {
+    color: white;
+    padding: 13px 20px;
 }
 
 .white-btn {
@@ -49,6 +54,15 @@ body {
 
 .dark-btn {
     background-color: black;
+    margin-left: 15px;
+}
+
+.indaco-btn {
+    background-color: #5865f2;
+}
+
+.fas.fa-long-arrow-alt-down {
+    padding: 8px;
 }
 
 
@@ -129,12 +143,6 @@ header .top-bar {
     padding: 13px 20px;
 }
 
-.jumbo-btn .dark-btn {
-    color: white;
-    margin-left: 15px;
-    padding: 13px 20px;
-}
-
 .jumbotron .jumbo-btn a {
     text-decoration: none;
 }
@@ -143,9 +151,6 @@ header .top-bar {
     text-decoration: underline;
 }
 
-.jumbo-btn .fas.fa-long-arrow-alt-down {
-    padding: 8px;
-}
 
 
 /*MAIN*/ 
@@ -196,6 +201,14 @@ main p {
     font-size: 25px;
     font-weight: 800;
     padding: 40px;
+}
+
+.discord-features a.indaco-btn {
+    text-decoration: none;
+}
+
+.discord-features a.indaco-btn:hover {
+    text-decoration: underline;
 }
 
 
