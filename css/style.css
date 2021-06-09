@@ -301,8 +301,7 @@ footer .container div.col.w-15 ul li:hover {
 
 #hr-footer {
     margin: 40px 0;
-    background-color: #5865f2;
-    border: 1px solid #23272a;
+    border-top: 1px solid rgba(88, 101, 242, 0.75);
 }
 
 #btn-right {
